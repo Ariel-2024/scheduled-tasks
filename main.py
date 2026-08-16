@@ -36,8 +36,8 @@ if (today_month,today_day) in birthdays_dict:
     new_file = txt_file.replace("[NAME]",name)
 
 
-    email = "oluwadarerebecca079@gmail.com"
-    my_password = "hrzrnxswddmsflmz"
+    email = MY_EMAIL
+    my_password = MY_PASSWORD
     connection = smtplib.SMTP("smtp.gmail.com",587)
     connection.starttls()
     connection.login(user=email,password=my_password)
