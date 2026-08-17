@@ -1,5 +1,2 @@
 pandas
-random
-os
-smptplib
-datetime
+
